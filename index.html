@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+  <title>Media screen record using recorder</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Media screen record using recorder</h1>
+    <p>created by: Sagar Chopada</p>
+  </header>
+  <main>
+    <p><button id="record" disabled>Record</button> <button id="stop" disabled>Stop</button></p>
+    <div class="row">
+      <figure>
+        <video id="live" width="320"></video><br />
+        <caption>live preview</caption>
+      </figure>
+      <figure>
+        <video id="recording" controls width="320"></video><br />
+        <caption>recorded clip</caption>
+      </figure>
+    </div>
+  </main>
+</body>
